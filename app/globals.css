@@ -1,0 +1,207 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  :root {
+    --background: 200 20% 98%;
+    --foreground: 200 50% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 200 50% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 200 50% 10%;
+    --primary: 195 90% 40%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 45 95% 55%;
+    --secondary-foreground: 200 50% 10%;
+    --muted: 200 15% 93%;
+    --muted-foreground: 200 10% 45%;
+    --accent: 160 60% 40%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 200 15% 85%;
+    --input: 200 15% 85%;
+    --ring: 195 90% 40%;
+    --chart-1: 195 90% 40%;
+    --chart-2: 160 60% 40%;
+    --chart-3: 45 95% 55%;
+    --chart-4: 15 80% 55%;
+    --chart-5: 200 50% 30%;
+    --radius: 0.75rem;
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 195 90% 40%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 200 15% 93%;
+    --sidebar-accent-foreground: 200 50% 10%;
+    --sidebar-border: 200 15% 85%;
+    --sidebar-ring: 195 90% 40%;
+  }
+  .dark {
+    --background: 200 50% 5%;
+    --foreground: 200 10% 95%;
+    --card: 200 40% 8%;
+    --card-foreground: 200 10% 95%;
+    --popover: 200 40% 8%;
+    --popover-foreground: 200 10% 95%;
+    --primary: 195 90% 45%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 45 95% 55%;
+    --secondary-foreground: 200 50% 10%;
+    --muted: 200 30% 15%;
+    --muted-foreground: 200 10% 60%;
+    --accent: 160 60% 45%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 200 30% 18%;
+    --input: 200 30% 18%;
+    --ring: 195 90% 45%;
+    --chart-1: 195 90% 45%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 45 95% 55%;
+    --chart-4: 15 80% 55%;
+    --chart-5: 200 50% 40%;
+    --sidebar-background: 200 50% 5%;
+    --sidebar-foreground: 200 10% 95%;
+    --sidebar-primary: 195 90% 45%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 200 30% 15%;
+    --sidebar-accent-foreground: 200 10% 95%;
+    --sidebar-border: 200 30% 18%;
+    --sidebar-ring: 195 90% 45%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Scroll Animations */
+@layer utilities {
+  .animate-fade-up {
+    animation: fadeUp 0.6s ease-out forwards;
+  }
+  
+  .animate-fade-down {
+    animation: fadeDown 0.6s ease-out forwards;
+  }
+  
+  .animate-fade-left {
+    animation: fadeLeft 0.6s ease-out forwards;
+  }
+  
+  .animate-fade-right {
+    animation: fadeRight 0.6s ease-out forwards;
+  }
+  
+  .animate-scale-up {
+    animation: scaleUp 0.5s ease-out forwards;
+  }
+  
+  .animate-blur-in {
+    animation: blurIn 0.6s ease-out forwards;
+  }
+
+  .scroll-hidden {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  .scroll-visible {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+
+  .stagger-1 { transition-delay: 0.1s; }
+  .stagger-2 { transition-delay: 0.2s; }
+  .stagger-3 { transition-delay: 0.3s; }
+  .stagger-4 { transition-delay: 0.4s; }
+  .stagger-5 { transition-delay: 0.5s; }
+  .stagger-6 { transition-delay: 0.6s; }
+  .stagger-7 { transition-delay: 0.7s; }
+  .stagger-8 { transition-delay: 0.8s; }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeDown {
+  from {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeLeft {
+  from {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeRight {
+  from {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes scaleUp {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes blurIn {
+  from {
+    opacity: 0;
+    filter: blur(10px);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
