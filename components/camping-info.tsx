@@ -3,7 +3,7 @@ import {
 } from "lucide-react"
 
 const amenities = [
-  { icon: Ruler, title: "Lotes de 25m2 y 15m2", description: "Espacios amplios para tu comodidad, con o sin auto." },
+  { icon: Ruler, title: "Lotes de 25m² y 15m²", description: "Espacios amplios para tu comodidad, con o sin auto." },
   { icon: ShieldCheck, title: "Vigilancia 24 hrs", description: "Personal de seguridad las 24 horas del dia." },
   { icon: Toilet, title: "Sanitarios", description: "Instalaciones limpias disponibles en todo momento." },
   { icon: ShowerHead, title: "Regaderas", description: "Regaderas con agua caliente para tu comodidad." },

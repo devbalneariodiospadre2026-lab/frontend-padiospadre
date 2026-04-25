@@ -7,20 +7,20 @@ export function Hero() {
   return (
     <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <Image
-        src="/images/HERO-IMAGE-FONT-V2.png"
+        src="/images/KRAKEN-HERO.png"
         alt="Vista aerea del balneario Dios Padre"
         fill
-        className="object-cover object-center"
+        className="object-cover object-top"
         priority
       />
       <div className="absolute inset-0 bg-[#6B3D2E]/50" />
 
       <div className="relative z-10 mx-auto max-w-4xl px-6 text-center">
         <span className="inline-block rounded-full bg-[#FFD100] px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-[#6B3D2E] mb-6">
-          Abierto todos los dias de 06:00 a 16:30
+          Abierto todos los dias de 06:00 am a 8:00 pm
         </span>
         <h1 className="text-4xl font-extrabold leading-tight tracking-tight text-[#ffffff] sm:text-5xl md:text-7xl text-balance">
-          Balneario{" "}
+          Parque Acuatico{" "}
           <span className="text-[#FFD100]">Dios Padre</span>
         </h1>
         <p className="mx-auto mt-6 max-w-2xl text-lg text-[#ffffff]/80 font-serif">

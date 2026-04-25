@@ -59,7 +59,7 @@ export function AbismoBar() {
           <div className="inline-flex items-center gap-3 rounded-full border border-[#333333] bg-[#252525] px-6 py-3">
             <Clock className="h-5 w-5 text-[#62B5E5]" />
             <span className="text-white font-medium">Horario de servicio:</span>
-            <span className="text-[#FFD100] font-bold">09:00 a 18:00</span>
+            <span className="text-[#FFD100] font-bold">09:00 am a 6:00 pm</span>
           </div>
         </div>
       </div>

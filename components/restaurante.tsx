@@ -56,11 +56,11 @@ export function Restaurante() {
                 <div className="space-y-3">
                   <div className="rounded-lg bg-[#ffffff] p-3 border border-[#ED8B00]/30">
                     <p className="text-sm font-semibold text-[#6B3D2E]">Domingo a Jueves</p>
-                    <p className="text-lg font-bold text-[#ED8B00]">8:30 - 16:30</p>
+                    <p className="text-lg font-bold text-[#ED8B00]">8:30 am - 4:30 pm</p>
                   </div>
                   <div className="rounded-lg bg-[#ffffff] p-3 border border-[#ED8B00]/30">
                     <p className="text-sm font-semibold text-[#6B3D2E]">Viernes y Sabado</p>
-                    <p className="text-lg font-bold text-[#ED8B00]">8:30 - 22:30</p>
+                    <p className="text-lg font-bold text-[#ED8B00]">8:30 am - 10:30 pm</p>
                   </div>
                 </div>
               </div>

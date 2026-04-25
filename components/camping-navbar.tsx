@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
-import { Menu, X, Droplets, Info, DollarSign, ScrollText, Waves, Phone } from "lucide-react"
+import { Menu, X, Info, DollarSign, ScrollText, Waves, Phone, Hotel } from "lucide-react"
 import Image from "next/image"
 
 const navLinks = [
@@ -10,6 +10,7 @@ const navLinks = [
   { label: "Informacion", href: "#informacion", icon: Info },
   { label: "Precios", href: "#precios", icon: DollarSign },
   { label: "Reglamento", href: "#reglamento", icon: ScrollText },
+    { label: "Hotel", href: "https://www.hoteldiospadre.com", icon: Hotel },
 ]
 
 export function CampingNavbar() {

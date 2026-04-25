@@ -14,7 +14,7 @@ const navLinks = [
   { label: "Restaurante", href: "#restaurante", icon: Utensils },
   { label: "Bar", href: "#bar", icon: Wine },
   { label: "Acampar", href: "/acampar", icon: Tent },
-  //{ label: "Hotel", href: "https://www.hoteldiospadre.com", icon: Hotel },
+  { label: "Hotel", href: "https://www.hoteldiospadre.com", icon: Hotel },
   { label: "Contacto", href: "#contacto", icon: Phone },
 ]
 
