@@ -4,14 +4,14 @@ import { Umbrella, Table, StretchHorizontal, Tent, BedSingle, Flame, Package } f
 import { ScrollAnimation, StaggerContainer } from "@/components/scroll-animation"
 
 const items = [
-  { icon: Umbrella, name: "Sombrillas", price: "$100.00" },
+  { icon: Umbrella, name: "Sombrillas", price: "$110.00" },
   { icon: Table, name: "Mesas", price: "$80.00" },
-  { icon: StretchHorizontal, name: "Mesa Larga", price: "$220.00" },
+  { icon: StretchHorizontal, name: "Mesa Larga", price: "$210.00" },
   { icon: Tent, name: "Carpa 5x5 mts", price: "$800.00" },
   { icon: Tent, name: "Carpa 8x5 mts", price: "$1,700.00" },
   { icon: BedSingle, name: "Camastros", price: "$90.00" },
-  { icon: Flame, name: "Asadores", price: "$280.00" },
-  { icon: Package, name: "Equipo Completo", price: "$310.00", note: "1 sombrilla, 1 mesa, 4 sillas" },
+  { icon: Flame, name: "Asadores", price: "$300.00" },
+  { icon: Package, name: "Equipo Completo", price: "$300.00", note: "1 sombrilla, 1 mesa, 4 sillas" },
 ]
 
 export function RentalEquipment() {
