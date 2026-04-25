@@ -1,7 +1,7 @@
 import { CheckCircle2, XCircle, AlertTriangle } from "lucide-react"
 
 const rules = [
-  "Respetar los horarios de entrada y salida de las albercas de 6:00 am a 18:00 pm.",
+  "Respetar los horarios de entrada y salida de las albercas de 6:00 am a 6:00 pm.",
   "Acatar y respetar las indicaciones del personal autorizado y los senalamientos del Parque.",
   "Depositar la basura en los cestos correspondientes.",
   "Guardar buen comportamiento en las instalaciones del Parque.",

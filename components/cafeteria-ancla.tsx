@@ -51,7 +51,7 @@ export function CafeteriaAncla() {
                     <p className="text-sm font-semibold text-[#6B3D2E]">Viernes, Sabado y Domingo</p>
                   </div>
                   <div className="rounded-lg bg-[#62B5E5] px-6 py-3">
-                    <p className="text-lg font-bold text-[#ffffff]">09:00 - 17:00</p>
+                    <p className="text-lg font-bold text-[#ffffff]">09:00 am - 5:00 pm</p>
                   </div>
                 </div>
               </div>

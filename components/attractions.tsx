@@ -170,6 +170,7 @@ export function Attractions() {
                   alt={attraction.title}
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-110"
+                  loading="lazy"
                 />
                 <div className="absolute inset-0 bg-[#6B3D2E]/20 transition-opacity group-hover:opacity-0" />
                 <div className="absolute top-3 sm:top-4 left-3 sm:left-4">
@@ -252,6 +253,7 @@ export function Attractions() {
                       fill
                       className="object-cover"
                       priority
+                      loading="lazy"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-[#6B3D2E]/80 via-[#6B3D2E]/20 to-transparent" />
                     <div className="absolute bottom-4 sm:bottom-6 left-4 sm:left-6 right-4 sm:right-6">

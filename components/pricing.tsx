@@ -48,7 +48,7 @@ export function Pricing() {
               </div>
             </div>
             <div className="text-2xl font-bold text-[#62B5E5]">
-              06:00 - 16:30
+              06:00 am - 8:00 pm
             </div>
           </div>
         </ScrollAnimation>
