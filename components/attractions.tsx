@@ -11,7 +11,7 @@ import {
   Zap, 
   ArrowDownToLine, 
   Eye, 
-  Trophy, 
+  Trophy, //
   X,
   Thermometer,
   Ruler,
@@ -143,7 +143,7 @@ export function Attractions() {
             Nuestras Atracciones
           </span>
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-[#6B3D2E] text-balance">
-            Diversiones Para Todos los Gustos
+            Diversiones Para Todos
           </h2>
           <p className="mx-auto mt-3 sm:mt-4 max-w-2xl text-sm sm:text-base text-[#6B3D2E]/70 font-serif">
             Desde adrenalina extrema hasta relajacion total, tenemos la atraccion perfecta para cada miembro de tu familia.
@@ -170,7 +170,7 @@ export function Attractions() {
                   alt={attraction.title}
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-110"
-                  loading="lazy"
+                  //loading="lazy"
                 />
                 <div className="absolute inset-0 bg-[#6B3D2E]/20 transition-opacity group-hover:opacity-0" />
                 <div className="absolute top-3 sm:top-4 left-3 sm:left-4">
@@ -253,7 +253,7 @@ export function Attractions() {
                       fill
                       className="object-cover"
                       priority
-                      loading="lazy"
+                      //loading="lazy"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-[#6B3D2E]/80 via-[#6B3D2E]/20 to-transparent" />
                     <div className="absolute bottom-4 sm:bottom-6 left-4 sm:left-6 right-4 sm:right-6">

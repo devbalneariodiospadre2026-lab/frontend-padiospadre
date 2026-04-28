@@ -65,10 +65,6 @@ export function Services() {
                 <p className="text-sm text-[#6B3D2E]/70 font-serif">MOD 1 Alberca Olimpica - MOD 2 Playa Sirena</p>
               </div>
             </div>
-            <div className="flex items-center gap-2 text-[#00843D]">
-              <Clock className="h-5 w-5" />
-              <span className="text-lg font-bold">08:00 - 18:00</span>
-            </div>
           </div>
         </ScrollAnimation>
       </div>

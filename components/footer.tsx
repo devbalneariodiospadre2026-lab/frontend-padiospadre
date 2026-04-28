@@ -16,10 +16,10 @@ export function Footer() {
                 width={60}
                 height={60}
               />
-              <span className="text-lg font-bold text-[#6B3D2E]">Parque Acuatico Dios Padre</span>
+              <span className="text-lg font-bold text-[#6B3D2E]">Parque Acuático Dios Padre</span>
             </Link>
             <p className="text-sm text-[#6B3D2E]/70 font-serif leading-relaxed">
-              El balneario mas completo de la region. Atracciones acuaticas, restaurante, hotel, camping y mas para toda la familia.
+              El parque acuático mas completo de la region. Atracciones acuaticas, restaurante, hotel, camping y mas para toda la familia.
             </p>
           </div>
 
@@ -80,7 +80,7 @@ export function Footer() {
             <p className="font-bold text-[#6B3D2E] mb-4 mt-6">Siguenos</p>
             <div className="flex items-center gap-3">
               <Link
-                href="https://facebook.com/BalnearioDiosPadre"
+                href="https://www.facebook.com/DiosPadreParqueAcuaticoOficial/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook"
@@ -93,20 +93,33 @@ export function Footer() {
                 />
               </Link>
               <Link
-                href="https://instagram.com/BalnearioDiosPadre"
+                href="https://www.instagram.com/balneariodiospadreoficial/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
               >
                 <Image
                   src="/icons/instagram-logo.png" // o .svg
-                  alt="Facebook"
+                  alt="Instagram"
                   width={40}
                   height={40}
                 />
               </Link>
               <Link
-                href="https://tiktok.com/@balneariodiospadreoficial"
+                href="https://www.youtube.com/@balneariodiospadre1591"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="TikTok"
+              >
+                <Image
+                  src="/icons/youtube.png" // o .svg
+                  alt="You Tube"
+                  width={40}
+                  height={40}
+                />
+              </Link>
+              <Link
+                href="https://www.tiktok.com/@p_a_diospadre_oficial"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="TikTok"
@@ -124,7 +137,7 @@ export function Footer() {
 
         <div className="mt-12 border-t border-[#d1d7dc] pt-8 text-center">
           <p className="text-sm text-[#6B3D2E]/70 font-serif">
-            {"2026 Balneario Dios Padre. Todos los derechos reservados."}
+            {"2026 Parque Acuático Dios Padre. Todos los derechos reservados."}
           </p>
         </div>
       </div>
