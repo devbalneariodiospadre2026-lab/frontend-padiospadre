@@ -120,7 +120,7 @@ export function CampingPricing() {
               <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-full bg-[#ED8B00]/10">
                 <Flame className="h-5 w-5 text-[#ED8B00]" />
               </div>
-              <h4 className="font-bold text-[#6B3D2E]">Lena</h4>
+              <h4 className="font-bold text-[#6B3D2E]">Leña</h4>
               <span className="text-2xl font-extrabold text-[#6B3D2E] mt-2">$70</span>
             </div>
             <div className="flex flex-col items-center rounded-xl border border-[#d1d7dc] bg-[#ffffff] p-6 shadow-sm">

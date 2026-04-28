@@ -1,6 +1,7 @@
 import { Navbar } from "@/components/navbar"
 import { Hero } from "@/components/hero"
 import { Attractions } from "@/components/attractions"
+import { Attractions as AtracctionsCarrucel } from "@/components/attractions-carrucel";
 import { Services } from "@/components/services"
 import { Stats } from "@/components/stats"
 import { Pricing } from "@/components/pricing"
@@ -18,7 +19,7 @@ export default function Page() {
     <main>
       <Navbar />
       <Hero />
-      <Attractions />
+      <AtracctionsCarrucel/>
       <Services />
       <Stats />
       <Pricing />

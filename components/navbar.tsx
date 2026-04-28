@@ -61,7 +61,7 @@ export function Navbar() {
             height={60}
           />
           <span className={`text-xl font-bold tracking-tight transition-colors duration-300 ${scrolled || mobileOpen ? "text-[#6B3D2E]" : "text-[#ffffff]"}`}>
-            Dios Padre
+            Parque Acuatico Dios Padre
           </span>
         </Link>
 

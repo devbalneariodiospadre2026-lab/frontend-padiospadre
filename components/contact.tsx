@@ -7,8 +7,66 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Label } from "@/components/ui/label"
 import { ScrollAnimation } from "@/components/scroll-animation"
+import { useState } from "react";
 
 export function Contact() {
+
+  const [form, setForm] = useState({
+    name: "",
+    phone: "",
+    email: "",
+    subject: "",
+    message: "",
+  });
+
+  const [loading, setLoading] = useState(false);
+  const [success, setSuccess] = useState("");
+  const [error, setError] = useState("");
+
+  const handleChange = (e: any) => {
+    setForm({
+      ...form,
+      [e.target.id]: e.target.value,
+    });
+  }
+
+  const handleSubmit = async (e: any) => {
+    e.preventDefault();
+
+    setLoading(true);
+    setSuccess("");
+    setError("");
+
+    try {
+      const res = await fetch("/api/send", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(form),
+      });
+
+      const data = await res.json();
+
+      if (!res.ok) {
+        throw new Error(data.error || "Error al enviar");
+      }
+
+      setSuccess("Mensaje enviado correctamente");
+      setForm({
+        name: "",
+        phone: "",
+        email: "",
+        subject: "",
+        message: "",
+      });
+    } catch (err: any) {
+      setError(err.message);
+    } finally {
+      setLoading(false);
+    }
+  };
+
   return (
     <section id="contacto" className="py-24 bg-[#f5f7f9]">
       <div className="mx-auto max-w-7xl px-6">
@@ -87,7 +145,7 @@ export function Contact() {
             <div className="rounded-xl border border-[#d1d7dc] bg-[#ffffff] p-6">
               <p className="font-bold text-[#6B3D2E] mb-2">Grupos y Eventos</p>
               <p className="text-sm text-[#6B3D2E]/70 font-serif leading-relaxed">
-                Organizamos fiestas de cumpleanos, eventos corporativos y excursiones escolares. Consulta nuestros descuentos especiales para grupos de 20 o mas personas.
+                Organizamos fiestas de cumpleaños, eventos corporativos y excursiones escolares. Consulta nuestros descuentos especiales para grupos de 20 o mas personas.
               </p>
             </div>
           </ScrollAnimation>
@@ -110,31 +168,71 @@ export function Contact() {
             </div>
 
             {/* Formulario */}
-            <form className="space-y-6 rounded-xl border border-[#d1d7dc] bg-[#ffffff] p-8">
+            <form 
+              onSubmit={handleSubmit}
+              className="space-y-6 rounded-xl border border-[#d1d7dc] bg-[#ffffff] p-8"
+            >
               <div className="grid gap-4 sm:grid-cols-2">
                 <div className="space-y-2">
                   <Label htmlFor="name">Nombre</Label>
-                  <Input id="name" placeholder="Tu nombre" />
+                  <Input 
+                    id="name" 
+                    placeholder="Tu nombre"
+                    value={form.name}
+                    onChange={handleChange}
+                  />
                 </div>
                 <div className="space-y-2">
                   <Label htmlFor="phone">Telefono</Label>
-                  <Input id="phone" type="tel" placeholder="Tu numero de telefono" />
+                  <Input 
+                    id="phone" 
+                    type="tel" 
+                    placeholder="Tu numero de telefono" 
+                    value={form.phone}
+                    onChange={handleChange}
+                  />
                 </div>
               </div>
               <div className="space-y-2">
                 <Label htmlFor="email">Correo Electronico</Label>
-                <Input id="email" type="email" placeholder="tu@correo.com" />
+                <Input 
+                  id="email" 
+                  type="email" 
+                  placeholder="tu@correo.com" 
+                  value={form.email}
+                  onChange={handleChange}
+                />
               </div>
               <div className="space-y-2">
                 <Label htmlFor="subject">Asunto</Label>
-                <Input id="subject" placeholder="Como podemos ayudarte?" />
+                <Input 
+                  id="subject" 
+                  placeholder="Como podemos ayudarte?" 
+                  value={form.subject}
+                  onChange={handleChange}
+                />
               </div>
               <div className="space-y-2">
                 <Label htmlFor="message">Mensaje</Label>
-                <Textarea id="message" placeholder="Escribe tu mensaje aqui..." rows={4} />
+                <Textarea 
+                  id="message" 
+                  placeholder="Escribe tu mensaje aqui..." 
+                  rows={4} 
+                  value={form.message}
+                  onChange={handleChange}
+                />
               </div>
-              <Button type="submit" className="w-full bg-[#62B5E5] text-[#ffffff] hover:bg-[#4DA3D3]">
-                Enviar Mensaje
+
+                {/* Feedback */}
+                {success && <p className="text-green-600">{success}</p>}
+                {error && <p className="text-red-600">{error}</p>}
+
+              <Button 
+                disabled={loading}
+                type="submit" 
+                className="w-full bg-[#62B5E5] text-[#ffffff] hover:bg-[#4DA3D3]"
+              >
+                {loading ? "Enviado..." : "Enviar Mensaje"}
               </Button>
             </form>
           </ScrollAnimation>
