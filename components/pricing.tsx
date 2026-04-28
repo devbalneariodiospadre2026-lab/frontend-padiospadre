@@ -43,7 +43,7 @@ export function Pricing() {
                 <Clock className="h-6 w-6 text-[#ffffff]" />
               </div>
               <div>
-                <p className="font-bold text-[#6B3D2E]">Horario del Balneario</p>
+                <p className="font-bold text-[#6B3D2E]">Horario del Parque</p>
                 <p className="text-sm text-[#6B3D2E]/70 font-serif">Lunes a Domingo</p>
               </div>
             </div>
@@ -71,7 +71,7 @@ export function Pricing() {
               </div>
               <div className="w-full flex items-center justify-center gap-2 rounded-lg bg-[#6B3D2E]/10 py-3 px-4 mt-auto">
                 <Ticket className="h-4 w-4 text-[#6B3D2E]" />
-                <span className="text-sm font-medium text-[#6B3D2E]">Entrada solo en taquilla</span>
+                <span className="text-sm font-medium text-[#6B3D2E]">Boletos solo en taquilla</span>
               </div>
             </div>
 
@@ -90,7 +90,7 @@ export function Pricing() {
               </div>
               <div className="w-full flex items-center justify-center gap-2 rounded-lg bg-[#6B3D2E]/10 py-3 px-4 mt-auto">
                 <Ticket className="h-4 w-4 text-[#6B3D2E]" />
-                <span className="text-sm font-medium text-[#6B3D2E]">Entrada solo en taquilla</span>
+                <span className="text-sm font-medium text-[#6B3D2E]">Boletos solo en taquilla</span>
               </div>
             </div>
 
@@ -114,7 +114,7 @@ export function Pricing() {
                   rel="noopener noreferrer"
                 >
                   <MessageCircle className="mr-2 h-5 w-5" />
-                  Contactar por WhatsApp
+                  Informes y reservaciones
                 </Link>
               </Button>
             </div>
@@ -171,70 +171,7 @@ export function Pricing() {
             </div>
           </div>
 
-          {/* Datos bancarios */}
-          <div className="w-full max-w-2xl">
-            <div className="rounded-xl border border-[#62B5E5] bg-[#ffffff] p-6 shadow-sm">
-              <div className="flex items-center gap-3 mb-4">
-                <Building2 className="h-6 w-6 text-[#62B5E5]" />
-                <h3 className="font-bold text-[#6B3D2E] text-lg">Datos Bancarios</h3>
-              </div>
-              <div className="grid gap-4 sm:grid-cols-2">
-                <div>
-                  <p className="text-xs text-[#6B3D2E]/60 uppercase tracking-wide mb-1">Nombre de la cuenta</p>
-                  <p className="text-sm font-semibold text-[#6B3D2E]">GENTE TRABAJANDO CON KO AJUAA SC DE RL DE CV</p>
-                </div>
-                <div>
-                  <p className="text-xs text-[#6B3D2E]/60 uppercase tracking-wide mb-1">Banco</p>
-                  <p className="text-sm font-semibold text-[#6B3D2E]">BANAMEX</p>
-                </div>
-                <div>
-                  <p className="text-xs text-[#6B3D2E]/60 uppercase tracking-wide mb-1">Sucursal</p>
-                  <p className="text-sm font-semibold text-[#6B3D2E]">7004</p>
-                </div>
-                <div>
-                  <p className="text-xs text-[#6B3D2E]/60 uppercase tracking-wide mb-1">Cuenta</p>
-                  <p className="text-sm font-semibold text-[#6B3D2E]">3412408</p>
-                </div>
-                <div className="sm:col-span-2">
-                  <p className="text-xs text-[#6B3D2E]/60 uppercase tracking-wide mb-1">CLABE Interbancaria</p>
-                  <div className="flex items-center gap-3">
-                    <p className="text-lg font-bold text-[#62B5E5] tracking-wider">{clabe}</p>
-                    <button
-                      onClick={copyToClipboard}
-                      className={`flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-xs font-medium transition-all duration-200 ${
-                        copied
-                          ? "bg-[#00843D] text-white"
-                          : "bg-[#62B5E5]/10 text-[#62B5E5] hover:bg-[#62B5E5]/20"
-                      }`}
-                      aria-label="Copiar CLABE"
-                    >
-                      {copied ? (
-                        <>
-                          <CheckCircle2 className="h-4 w-4" />
-                          Copiado
-                        </>
-                      ) : (
-                        <>
-                          <Copy className="h-4 w-4" />
-                          Copiar
-                        </>
-                      )}
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
 
-          {/* Nota importante */}
-          <div className="w-full max-w-2xl">
-            <div className="flex items-start gap-3 rounded-xl border border-[#ED8B00] bg-[#ED8B00]/10 p-5">
-              <AlertCircle className="h-5 w-5 shrink-0 text-[#ED8B00] mt-0.5" />
-              <p className="text-sm text-[#6B3D2E]/80 font-serif">
-                <span className="font-semibold text-[#6B3D2E]">Nota:</span> Antes de realizar su pago, contactar con el equipo de atencion telefonica en cualquiera de los numeros antes mencionados.
-              </p>
-            </div>
-          </div>
         </div>
       </div>
     </section>

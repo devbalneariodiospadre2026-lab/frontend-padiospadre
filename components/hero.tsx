@@ -17,14 +17,17 @@ export function Hero() {
 
       <div className="relative z-10 mx-auto max-w-4xl px-6 text-center">
         <span className="inline-block rounded-full bg-[#FFD100] px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-[#6B3D2E] mb-6">
-          Abierto todos los dias de 06:00 am a 8:00 pm
+          El plan perfecto para toda la familia, los 365 días del año
         </span>
         <h1 className="text-4xl font-extrabold leading-tight tracking-tight text-[#ffffff] sm:text-5xl md:text-7xl text-balance">
-          Parque Acuatico{" "}
+          Parque Acuático{" "}
           <span className="text-[#FFD100]">Dios Padre</span>
         </h1>
         <p className="mx-auto mt-6 max-w-2xl text-lg text-[#ffffff]/80 font-serif">
-          8 atracciones acuaticas, restaurante, zona de camping, hotel y todos los servicios para disfrutar en familia. Ven y vive la experiencia.
+          Somos el #ParqueMásPadre de Ixmiquilpan Hidalgo
+        </p>
+        <p className="mx-auto mt-6 max-w-2xl text-lg text-[#ffffff]/80 font-serif">
+          Vive un día lleno de diversión con aguas termales, toboganes, alberca de olas, restaurante, hotel, masajes y bar karaoke
         </p>
         <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
           <Button size="lg" asChild className="text-base px-8 bg-[#62B5E5] text-[#ffffff] hover:bg-[#4DA3D3]">

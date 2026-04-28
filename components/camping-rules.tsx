@@ -12,7 +12,7 @@ const rules = [
 
 const restrictions = [
   "Introducir tanques de gas, armas blancas, objetos punzo-cortantes de cualquier tipo y armas de fuego.",
-  "Danar arboles, plantas y alterar el ecosistema del Parque.",
+  "Dañar arboles, plantas y alterar el ecosistema del Parque.",
   "Realizar necesidades fisiologicas fuera de las areas designadas para ello.",
   "Tirar basura y piedras a las albercas.",
   "Realizar actos que molesten o perjudiquen la integridad de los demas usuarios (musica, escandalo, unicamente hasta las 11:00 pm).",
@@ -82,7 +82,7 @@ export function CampingRules() {
           <div className="flex items-start gap-3 rounded-lg border border-[#d1d7dc] bg-[#6B3D2E]/5 p-4">
             <AlertTriangle className="mt-0.5 h-4 w-4 shrink-0 text-[#6B3D2E]" />
             <p className="text-xs text-[#6B3D2E]/70 font-serif leading-relaxed">
-              Quien dolosamente no respeta las normas sera consignado a las autoridades correspondientes y originara el pago de los danos y perjuicios.
+              Quien dolosamente no respeta las normas sera consignado a las autoridades correspondientes y originara el pago de los daños y perjuicios.
             </p>
           </div>
           <div className="flex items-start gap-3 rounded-lg border border-[#d1d7dc] bg-[#6B3D2E]/5 p-4">

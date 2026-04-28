@@ -145,7 +145,7 @@ export function Contact() {
             <div className="rounded-xl border border-[#d1d7dc] bg-[#ffffff] p-6">
               <p className="font-bold text-[#6B3D2E] mb-2">Grupos y Eventos</p>
               <p className="text-sm text-[#6B3D2E]/70 font-serif leading-relaxed">
-                Organizamos fiestas de cumpleanos, eventos corporativos y excursiones escolares. Consulta nuestros descuentos especiales para grupos de 20 o mas personas.
+                Organizamos fiestas de cumpleaños, eventos corporativos y excursiones escolares. Consulta nuestros descuentos especiales para grupos de 20 o mas personas.
               </p>
             </div>
           </ScrollAnimation>
