@@ -37,13 +37,13 @@ const attractions = [
         badge: "Familiar",
         badgeColor: "bg-[#00843D] text-[#ffffff]",
         temperatura: "26°C",
-        profundidad: "35 cm",
+        profundidad: ".35 m",
         horario: "9:30 am a 5:00 pm",
         capacidad: "400 niños",
     },
 
     {
-        title: "Alberca Infantil Isla Pirata",
+        title: "Isla pirata",
         description: "Embárcate en una emocionante aventura en la Isla Pirata, un espacio lleno de fantasía donde la diversión no tiene límites. Rodeada de un impresionante barco naufragado y un gigantesco pulpo que parece cobrar vida, esta área te invita a explorar, jugar y dejar volar tu imaginación.",
         images: [
             "/attractions/infantil-2/INFANTIL-2.png",
@@ -53,7 +53,7 @@ const attractions = [
         badge: "Familiar",
         badgeColor: "bg-[#ED8B00] text-[#ffffff]",
         temperatura: "26°C",
-        profundidad: "30 cm",
+        profundidad: ".30 m",
         horario: "9:30 am a 5:00 pm",
         capacidad: "120 niños",
     },
@@ -75,7 +75,7 @@ const attractions = [
     },
 
     {
-        title: "Ojo De Agua",
+        title: "Ojo de agua",
         description: "Sin duda, uno de los principales atractivos del parqu es su emblemático “Ojo de Agua”, del cual brota un impresionante caudal de 100 litros por segundo. En esta zona podrás encontrar tres pozas, ideales para disfrutar y relajarte en sus cálidas y reconfortantes aguas termales.",
         images: [
             "/attractions/ojo-de-agua/OJO-DE-AGUA.png",
@@ -85,14 +85,14 @@ const attractions = [
         icon: Baby,
         badge: "Familiar",
         badgeColor: "bg-[#FFD100] text-[#6B3D2E]",
-        temperatura: "36C",
-        profundidad: "0.30 m - 0.60 m",
-        horario: "06:00 - 16:30",
+        temperatura: "36°C",
+        profundidad: ".30 m - .60 m de profundidad",
+        horario: "6:00 am a 4:30 pm",
         capacidad: "300 personas",
     },
 
     {
-        title: "Olimpica",
+        title: "Olímpica",
         description: "Compite con tus amigos y familia en nuestras pistas paralelas. Quien llega primero al agua? Una experiencia llena de emocion y competencia sana para todas las edades.",
         images: [
             "/attractions/olimpica/OLIMPICA.png",
@@ -102,13 +102,13 @@ const attractions = [
         badge: "Diversion",
         badgeColor: "bg-[#62B5E5] text-[#ffffff]",
         temperatura: "28°C",
-        profundidad: "1.60 cm",
-        horario: "6:00am - 6:00pm",
+        profundidad: "1.60 m de produndidad",
+        horario: "6:00 am a 6:00 pm",
         capacidad: "600 personas",
     },
 
     {
-        title: "Playa Sirena",
+        title: "Playa sirena",
         description: "Una de las atracciones más divertidas de Hidalgo, ideal para disfrutar en familia y crear momentos inolvidables. Esta impresionante alberca de olas tiene capacidad para 1,200 personas y además cuenta con un área infantil, perfecta para los más pequeños.",
         images: [
             "/attractions/playa-sirena/PLAYA-SIRENA.png",
@@ -119,24 +119,24 @@ const attractions = [
         badge: "Popular",
         badgeColor: "bg-[#ED8B00] text-[#ffffff]",
         temperatura: "27°C",
-        profundidad: "1.70 cm",
-        horario: "12:00 am - 4:00 pm",
+        profundidad: ".30 m - 1.70 m de profundidad",
+        horario: "12:00 pm a 4:00 pm",
         capacidad: "500 personas",
     },
 
     {
-        title: "Trebol",
+        title: "Trébol",
         description: "Una alberca familiar ideal para disfrutar en compañía de chicos y grandes. Aquí podrás divertirte con su impresionante géiser artificial de 7 metros de altura, además de sus juegos acuáticos en forma de barco, mariposa y hongo, que hacen de este espacio una experiencia llena de alegría y entretenimiento.",
         images: [
             "/attractions/trebol/TREBOL.png",
             "/attractions/trebol/trebol-2.jpg",
         ],
         icon: Eye,
-        badge: "Natural",
+        badge: "Familiar",
         badgeColor: "bg-[#00843D] text-[#ffffff]",
         temperatura: "29°C",
-        profundidad: "60 cm - 1.50 m",
-        horario: "06:00 - 16:30",
+        profundidad: ".60 m - 1.50 m de profundiad",
+        horario: "6:00 am a 4:30 pm",
         capacidad: "300 personas",
     },
 
@@ -151,8 +151,8 @@ const attractions = [
         badge: "Popular",
         badgeColor: "bg-[#00843D] text-[#ffffff]",
         temperatura: "28°C",
-        profundidad: "60 cm - 1.50 m",
-        horario: "10:30 am - 4:30 am",
+        profundidad: "18 m",
+        horario: "10:30 am a 4:30 am",
         capacidad: "300 personas",
     },
 
@@ -228,10 +228,10 @@ export function Attractions() {
                         Nuestras Atracciones
                     </span>
                     <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-[#6B3D2E] text-balance">
-                        Diversiones Para Todos los Gustos
+                        Diversiones para toda la familia
                     </h2>
                     <p className="mx-auto mt-3 sm:mt-4 max-w-2xl text-sm sm:text-base text-[#6B3D2E]/70 font-serif">
-                        Desde adrenalina extrema hasta relajacion total, tenemos la atraccion perfecta para cada miembro de tu familia.
+                        Desde adrenalina extrema hasta relajacion total, tenemos la atracciones perfecta para cada miembro de tu familia.
                     </p>
                 </ScrollAnimation>
 
@@ -461,7 +461,7 @@ export function Attractions() {
                                                     <Ruler className="h-4 w-4 sm:h-5 sm:w-5 text-[#62B5E5]" />
                                                 </div>
                                                 <div className="min-w-0">
-                                                    <p className="text-[10px] sm:text-xs text-[#6B3D2E]/60 uppercase tracking-wide">Profundidad</p>
+                                                    <p className="text-[10px] sm:text-xs text-[#6B3D2E]/60 uppercase tracking-wide">Especificaciones</p>
                                                     <p className="text-xs sm:text-sm font-semibold text-[#6B3D2E] truncate">{selectedAttraction.profundidad}</p>
                                                 </div>
                                             </motion.div>
