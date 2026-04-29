@@ -28,7 +28,7 @@ export function Pricing() {
             Precios
           </span>
           <h2 className="text-3xl font-bold tracking-tight text-[#6B3D2E] sm:text-4xl md:text-5xl text-balance">
-            Nuestras Entradas
+            Nuestras entradas
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-[#6B3D2E]/70 font-serif">
             Acceso completo a todas las atracciones del parque.
@@ -43,12 +43,12 @@ export function Pricing() {
                 <Clock className="h-6 w-6 text-[#ffffff]" />
               </div>
               <div>
-                <p className="font-bold text-[#6B3D2E]">Horario del Parque</p>
+                <p className="font-bold text-[#6B3D2E]">Horario del parque</p>
                 <p className="text-sm text-[#6B3D2E]/70 font-serif">Lunes a Domingo</p>
               </div>
             </div>
             <div className="text-2xl font-bold text-[#62B5E5]">
-              06:00 am - 8:00 pm
+              6:00 am - 8:00 pm
             </div>
           </div>
         </ScrollAnimation>
@@ -80,7 +80,7 @@ export function Pricing() {
               <span className="absolute -top-3 rounded-full bg-[#00843D] px-4 py-1 text-xs font-semibold text-[#ffffff]">
                 INAPAM
               </span>
-              <h3 className="text-lg font-bold text-[#6B3D2E] mb-1">Adultos Mayores</h3>
+              <h3 className="text-lg font-bold text-[#6B3D2E] mb-1">Adultos mayores</h3>
               <p className="text-sm text-[#6B3D2E]/70 font-serif mb-5 text-center">
                 Con credencial vigente del INAPAM
               </p>
@@ -99,13 +99,13 @@ export function Pricing() {
               <span className="absolute -top-3 rounded-full bg-[#ED8B00] px-4 py-1 text-xs font-semibold text-[#ffffff]">
                 Descuento Especial
               </span>
-              <h3 className="text-lg font-bold text-[#6B3D2E] mb-1">Grupos 20+ Personas</h3>
+              <h3 className="text-lg font-bold text-[#6B3D2E] mb-1">Grupos +20 personas</h3>
               <p className="text-sm text-[#6B3D2E]/70 font-serif mb-5 text-center">
                 Excursiones, escuelas y empresas
               </p>
               <div className="mb-6 text-center flex-1 flex flex-col justify-center">
                 <span className="text-3xl font-extrabold text-[#ED8B00]">Precio Especial</span>
-                <p className="text-sm text-[#6B3D2E]/70 font-serif">Cotizacion personalizada</p>
+                <p className="text-sm text-[#6B3D2E]/70 font-serif">Cotización personalizada</p>
               </div>
               <Button asChild className="w-full bg-[#00843D] text-[#ffffff] hover:bg-[#006B31] mt-auto">
                 <Link
@@ -138,19 +138,19 @@ export function Pricing() {
             <div className="rounded-xl border border-[#FFD100] bg-[#FFD100]/20 p-6">
               <div className="flex items-center gap-3 mb-2">
                 <ShoppingBag className="h-5 w-5 text-[#ED8B00]" />
-                <p className="font-semibold text-[#6B3D2E]">Acceso de Alimentos</p>
+                <p className="font-semibold text-[#6B3D2E]">Acceso de alimentos</p>
               </div>
               <p className="text-sm text-[#6B3D2E]/70 font-serif">
-                El ingreso de alimentos, bebidas y abarrotes se permite unicamente en su primer acceso al parque.
+                El ingreso de alimentos, bebidas y abarrotes se permite únicamente en su primer acceso al parque.
               </p>
             </div>
             <div className="rounded-xl border border-[#FFD100] bg-[#FFD100]/20 p-6">
               <div className="flex items-center gap-3 mb-2">
                 <RotateCcw className="h-5 w-5 text-[#ED8B00]" />
-                <p className="font-semibold text-[#6B3D2E]">Salida y Reingreso</p>
+                <p className="font-semibold text-[#6B3D2E]">Salida y reingreso</p>
               </div>
               <p className="text-sm text-[#6B3D2E]/70 font-serif">
-                Pueden salir de las instalaciones portando su brazalete, unicamente por cosas de uso personal.
+                Pueden salir de las instalaciones portando su brazalete, únicamente por cosas de uso personal.
               </p>
             </div>
           </div>
@@ -160,7 +160,7 @@ export function Pricing() {
             <div className="rounded-xl border border-[#00843D] bg-[#00843D]/10 p-6">
               <div className="flex items-center gap-3 mb-4">
                 <CreditCard className="h-6 w-6 text-[#00843D]" />
-                <h3 className="font-bold text-[#6B3D2E] text-lg">Metodos de Pago</h3>
+                <h3 className="font-bold text-[#6B3D2E] text-lg">Metodos de pago</h3>
               </div>
               <p className="text-sm text-[#6B3D2E]/80 font-serif mb-4">
                 Aceptamos pagos con tarjeta en taquilla y establecimientos dentro del parque.

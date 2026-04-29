@@ -19,7 +19,7 @@ export function Footer() {
               <span className="text-lg font-bold text-[#6B3D2E]">Parque Acuático Dios Padre</span>
             </Link>
             <p className="text-sm text-[#6B3D2E]/70 font-serif leading-relaxed">
-              El parque acuático mas completo de la region. Atracciones acuaticas, restaurante, hotel, camping y mas para toda la familia.
+              El Parque Acuático más completo de la región. Atracciones acuaticas, restaurante, hotel, zona de acampar y muchas atracciones para toda la familia
             </p>
           </div>
 
@@ -74,10 +74,10 @@ export function Footer() {
             <p className="font-bold text-[#6B3D2E] mb-4">Horario</p>
             <ul className="space-y-2 text-sm text-[#6B3D2E]/70 font-serif">
               <li>Lunes a Domingo</li>
-              <li className="font-semibold text-[#6B3D2E]">06:00 - 16:30</li>
+              <li className="font-semibold text-[#6B3D2E]">6:00 am - 8:00 pm</li>
             </ul>
 
-            <p className="font-bold text-[#6B3D2E] mb-4 mt-6">Siguenos</p>
+            <p className="font-bold text-[#6B3D2E] mb-4 mt-6">Síguenos</p>
             <div className="flex items-center gap-3">
               <Link
                 href="https://www.facebook.com/DiosPadreParqueAcuaticoOficial/"

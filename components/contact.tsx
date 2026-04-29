@@ -75,10 +75,10 @@ export function Contact() {
             Contacto
           </span>
           <h2 className="text-3xl font-bold tracking-tight text-[#6B3D2E] sm:text-4xl md:text-5xl text-balance">
-            Estamos Para Servirte
+            Estamos para servirte
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-[#6B3D2E]/70 font-serif">
-            Tienes preguntas, sugerencias o quieres reservar para grupos grandes? Contactanos y te responderemos lo antes posible.
+            Tienes preguntas, sugerencias o quieres reservar para grupos grandes, contactanos y te responderemos lo antes posible.
           </p>
         </ScrollAnimation>
 
@@ -90,9 +90,9 @@ export function Contact() {
                 <MapPin className="h-6 w-6 text-[#ED8B00]" />
               </div>
               <div>
-                <p className="font-bold text-[#6B3D2E]">Ubicacion</p>
+                <p className="font-bold text-[#6B3D2E]">Ubicación</p>
                 <p className="text-[#6B3D2E]/70 font-serif">
-                  Km 156 Carretera Mexico-Laredo<br />
+                  Km 156 Carretera México-Laredo<br />
                   Ixmiquilpan, Hidalgo
                 </p>
               </div>
@@ -104,7 +104,7 @@ export function Contact() {
                 <Phone className="h-6 w-6 text-[#62B5E5]" />
               </div>
               <div>
-                <p className="font-bold text-[#6B3D2E]">Telefono</p>
+                <p className="font-bold text-[#6B3D2E]">Teléfono</p>
                 <Link href="tel:7597232548" className="text-[#6B3D2E]/70 font-serif hover:text-[#62B5E5] transition-colors">
                   759 723 2548
                 </Link>
@@ -137,7 +137,7 @@ export function Contact() {
                 rel="noopener noreferrer"
               >
                 <MessageCircle className="mr-2 h-5 w-5" />
-                Escribenos por WhatsApp
+                Escríbenos por WhatsApp
               </Link>
             </Button>
 
@@ -145,7 +145,7 @@ export function Contact() {
             <div className="rounded-xl border border-[#d1d7dc] bg-[#ffffff] p-6">
               <p className="font-bold text-[#6B3D2E] mb-2">Grupos y Eventos</p>
               <p className="text-sm text-[#6B3D2E]/70 font-serif leading-relaxed">
-                Organizamos fiestas de cumpleaños, eventos corporativos y excursiones escolares. Consulta nuestros descuentos especiales para grupos de 20 o mas personas.
+                Organizamos fiestas de cumpleaños, eventos corporativos y excursiones escolares. Consulta nuestros descuentos especiales para grupos de 20 o más personas.
               </p>
             </div>
           </ScrollAnimation>
@@ -183,18 +183,18 @@ export function Contact() {
                   />
                 </div>
                 <div className="space-y-2">
-                  <Label htmlFor="phone">Telefono</Label>
+                  <Label htmlFor="phone">Teléfono</Label>
                   <Input 
                     id="phone" 
                     type="tel" 
-                    placeholder="Tu numero de telefono" 
+                    placeholder="Tu número de teléfono" 
                     value={form.phone}
                     onChange={handleChange}
                   />
                 </div>
               </div>
               <div className="space-y-2">
-                <Label htmlFor="email">Correo Electronico</Label>
+                <Label htmlFor="email">Correo electrónico</Label>
                 <Input 
                   id="email" 
                   type="email" 
@@ -207,7 +207,7 @@ export function Contact() {
                 <Label htmlFor="subject">Asunto</Label>
                 <Input 
                   id="subject" 
-                  placeholder="Como podemos ayudarte?" 
+                  placeholder="¿Cómo podemos ayudarte?" 
                   value={form.subject}
                   onChange={handleChange}
                 />
@@ -216,7 +216,7 @@ export function Contact() {
                 <Label htmlFor="message">Mensaje</Label>
                 <Textarea 
                   id="message" 
-                  placeholder="Escribe tu mensaje aqui..." 
+                  placeholder="Escribe tu mensaje aquí..." 
                   rows={4} 
                   value={form.message}
                   onChange={handleChange}
@@ -232,7 +232,7 @@ export function Contact() {
                 type="submit" 
                 className="w-full bg-[#62B5E5] text-[#ffffff] hover:bg-[#4DA3D3]"
               >
-                {loading ? "Enviado..." : "Enviar Mensaje"}
+                {loading ? "Enviado..." : "Enviar mensaje"}
               </Button>
             </form>
           </ScrollAnimation>

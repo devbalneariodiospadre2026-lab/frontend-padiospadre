@@ -2,7 +2,7 @@ import { UtensilsCrossed, Clock, Check } from "lucide-react"
 
 const menuItems = [
   "Desayuno y comida a la carta",
-  "Menu del dia (comida tres tiempos)",
+  "Menú del dia (comida tres tiempos)",
   "Snacks",
   "Desayuno y comida buffet (preguntar por el servicio)",
 ]
@@ -13,13 +13,13 @@ export function Restaurante() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="text-center mb-16">
           <span className="inline-block rounded-full bg-[#ED8B00]/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-[#ED8B00] mb-4">
-            Gastronomia
+            Gastronomía
           </span>
           <h2 className="text-3xl font-bold tracking-tight text-[#6B3D2E] sm:text-4xl md:text-5xl text-balance">
             Restaurante
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-[#6B3D2E]/70 font-serif">
-            Disfruta de nuestra deliciosa oferta gastronomica con platillos para todos los gustos.
+            Disfruta de nuestra deliciosa oferta gastronómica con platillos para todos los gustos.
           </p>
         </div>
 
@@ -33,7 +33,7 @@ export function Restaurante() {
                     <UtensilsCrossed className="h-8 w-8 text-[#ffffff]" />
                   </div>
                   <div>
-                    <h3 className="text-2xl font-bold text-[#6B3D2E]">Nuestro Menu</h3>
+                    <h3 className="text-2xl font-bold text-[#6B3D2E]">Nuestro menú</h3>
                     <p className="text-sm text-[#6B3D2E]/70 font-serif">Comida casera y deliciosa</p>
                   </div>
                 </div>
@@ -55,12 +55,16 @@ export function Restaurante() {
                 </div>
                 <div className="space-y-3">
                   <div className="rounded-lg bg-[#ffffff] p-3 border border-[#ED8B00]/30">
-                    <p className="text-sm font-semibold text-[#6B3D2E]">Domingo a Jueves</p>
+                    <p className="text-sm font-semibold text-[#6B3D2E]">Lunes a Jueves</p>
                     <p className="text-lg font-bold text-[#ED8B00]">8:30 am - 4:30 pm</p>
                   </div>
                   <div className="rounded-lg bg-[#ffffff] p-3 border border-[#ED8B00]/30">
-                    <p className="text-sm font-semibold text-[#6B3D2E]">Viernes y Sabado</p>
+                    <p className="text-sm font-semibold text-[#6B3D2E]">Viernes y Sábado</p>
                     <p className="text-lg font-bold text-[#ED8B00]">8:30 am - 10:30 pm</p>
+                  </div>
+                  <div className="rounded-lg bg-[#ffffff] p-3 border border-[#ED8B00]/30">
+                    <p className="text-sm font-semibold text-[#6B3D2E]">Domingo</p>
+                    <p className="text-lg font-bold text-[#ED8B00]">8:30 am - 8:30 pm</p>
                   </div>
                 </div>
               </div>

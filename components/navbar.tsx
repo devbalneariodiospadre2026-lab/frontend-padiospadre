@@ -10,7 +10,7 @@ const navLinks = [
   { label: "Atracciones", href: "#atracciones", icon: Waves },
   { label: "Servicios", href: "#servicios", icon: Sparkles },
   { label: "Precios", href: "#precios", icon: DollarSign },
-  { label: "Renta", href: "#renta", icon: Package },
+  { label: "Renta de equipo", href: "#renta", icon: Package },
   { label: "Restaurante", href: "#restaurante", icon: Utensils },
   { label: "Bar", href: "#bar", icon: Wine },
   { label: "Acampar", href: "/acampar", icon: Tent },
@@ -57,12 +57,9 @@ export function Navbar() {
             src='icons/logo.png'
             alt="Parque Acuatico Dios Padre"
             priority
-            width={60}
-            height={60}
+            width={100}
+            height={100}
           />
-          <span className={`text-xl font-bold tracking-tight transition-colors duration-300 ${scrolled || mobileOpen ? "text-[#6B3D2E]" : "text-[#ffffff]"}`}>
-            Parque Acuatico Dios Padre
-          </span>
         </Link>
 
         <ul className="hidden items-center gap-8 md:flex">

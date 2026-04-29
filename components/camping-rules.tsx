@@ -1,21 +1,21 @@
 import { CheckCircle2, XCircle, AlertTriangle } from "lucide-react"
 
 const rules = [
-  "Respetar los horarios de entrada y salida de las albercas de 6:00 am a 6:00 pm.",
-  "Acatar y respetar las indicaciones del personal autorizado y los senalamientos del Parque.",
+  "Respetar los horarios de entrada y salida de las albercas de 6:00 am a 8:00 pm.",
+  "Acatar y respetar las indicaciones del personal autorizado y los señalamientos del Parque.",
   "Depositar la basura en los cestos correspondientes.",
   "Guardar buen comportamiento en las instalaciones del Parque.",
-  "Cuidar las instalaciones y areas del Parque Acuatico.",
+  "Cuidar las instalaciones y áreas del Parque.",
   "El costo de la zona de acampar no incluye la entrada a las albercas.",
-  "Respetar los limites establecidos para las areas de acampado, cada lote es de 5 x 5 metros.",
+  "Respetar los límites establecidos para las áreas de acampado, cada lote es de 5 x 5 metros.",
 ]
 
 const restrictions = [
-  "Introducir tanques de gas, armas blancas, objetos punzo-cortantes de cualquier tipo y armas de fuego.",
-  "Dañar arboles, plantas y alterar el ecosistema del Parque.",
-  "Realizar necesidades fisiologicas fuera de las areas designadas para ello.",
+  "Introducir tanques de gas, armas blancas, objetos punzocortantes de cualquier tipo y armas de fuego.",
+  "Dañar árboles, plantas y alterar el ecosistema del Parque.",
+  "Realizar necesidades fisiológicas fuera de las áreas designadas.",
   "Tirar basura y piedras a las albercas.",
-  "Realizar actos que molesten o perjudiquen la integridad de los demas usuarios (musica, escandalo, unicamente hasta las 11:00 pm).",
+  "Realizar actos que molesten o perjudiquen la integridad de los demás usuarios (volumen de música, escandalo, únicamente hasta las 11:00 pm).",
   "Estacionar su auto en pasillos o fuera de su lote asignado.",
 ]
 
@@ -28,7 +28,7 @@ export function CampingRules() {
             Reglamento
           </span>
           <h2 className="text-3xl font-bold tracking-tight text-[#6B3D2E] sm:text-4xl md:text-5xl text-balance">
-            Reglas del Campamento
+            Reglas del campamento
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-[#6B3D2E]/70 font-serif">
             Para garantizar una convivencia sana y segura, te pedimos respetar el siguiente reglamento.
@@ -81,14 +81,14 @@ export function CampingRules() {
         <div className="mx-auto max-w-4xl mt-10 flex flex-col gap-3">
           <div className="flex items-start gap-3 rounded-lg border border-[#d1d7dc] bg-[#6B3D2E]/5 p-4">
             <AlertTriangle className="mt-0.5 h-4 w-4 shrink-0 text-[#6B3D2E]" />
-            <p className="text-xs text-[#6B3D2E]/70 font-serif leading-relaxed">
+            <p className="text-xs text-red-800 font-serif leading-relaxed">
               Quien dolosamente no respeta las normas sera consignado a las autoridades correspondientes y originara el pago de los daños y perjuicios.
             </p>
           </div>
           <div className="flex items-start gap-3 rounded-lg border border-[#d1d7dc] bg-[#6B3D2E]/5 p-4">
             <AlertTriangle className="mt-0.5 h-4 w-4 shrink-0 text-[#6B3D2E]" />
-            <p className="text-xs text-[#6B3D2E]/70 font-serif leading-relaxed">
-              El Parque Acuatico no se hace responsable de la perdida total o parcial de los objetos dentro de las instalaciones.
+            <p className="text-xs text-red-800 font-serif leading-relaxed">
+              El Parque Acuático no se hace responsable de la perdida total o parcial de los objetos dentro de las instalaciones.
             </p>
           </div>
         </div>

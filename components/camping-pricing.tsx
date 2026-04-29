@@ -9,7 +9,7 @@ export function CampingPricing() {
             Precios
           </span>
           <h2 className="text-3xl font-bold tracking-tight text-[#6B3D2E] sm:text-4xl md:text-5xl text-balance">
-            Zona de Camping
+            Zona de acampar
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-[#6B3D2E]/70 font-serif">
             Renta de lotes y casas de acampar. El costo no incluye el acceso al parque.
@@ -76,7 +76,7 @@ export function CampingPricing() {
 
         {/* Casas de Acampar */}
         <div className="mb-16">
-          <h3 className="text-center text-2xl font-bold text-[#6B3D2E] mb-8">Casas de Acampar</h3>
+          <h3 className="text-center text-2xl font-bold text-[#6B3D2E] mb-8">Renta de casas de acampar</h3>
           <div className="mx-auto grid max-w-3xl gap-6 sm:grid-cols-2 mb-6">
             {/* Casa 4 personas */}
             <div className="relative flex flex-col items-center rounded-xl border border-[#ED8B00] bg-[#ffffff] p-8 shadow-md">
@@ -106,7 +106,7 @@ export function CampingPricing() {
           {/* Nota de deposito */}
           <div className="mx-auto max-w-3xl rounded-xl border border-[#ED8B00] bg-[#ED8B00]/10 p-5">
             <p className="text-sm text-[#6B3D2E] font-serif text-center">
-              Cada casa de acampar requiere un deposito de <span className="font-bold">$500</span> + <span className="font-bold">identificacion oficial (INE)</span> como garantia.
+              Cada casa de acampar requiere un depósito de <span className="font-bold">$500</span> + <span className="font-bold">identificacion oficial (INE)</span> como garantia.
               Se devuelve al entregar la casa en buenas condiciones.
             </p>
           </div>
@@ -143,8 +143,8 @@ export function CampingPricing() {
               <h4 className="font-bold text-[#6B3D2E]">Acceso a albercas</h4>
               <p className="mt-1 text-sm text-[#6B3D2E]/70 font-serif leading-relaxed">
                 El costo de acceso a las albercas es independiente y se paga diariamente. El horario de servicio de las albercas es de{" "}
-                <span className="font-semibold text-[#6B3D2E]">6:00 a 18:00 hrs</span>.
-                Despues de este horario hay que instalarse en la zona de campamento. Si desea ingresar a las albercas al dia siguiente, hay que cubrir el costo de acceso general nuevamente.
+                <span className="font-semibold text-[#6B3D2E]">6:00 am - 8:00 pm</span>.
+                Después de este horario hay que instalarse en la zona de acampar. Si desea ingresar a las albercas al día siguiente, hay que cubrir el costo de acceso general nuevamente.
               </p>
             </div>
           </div>

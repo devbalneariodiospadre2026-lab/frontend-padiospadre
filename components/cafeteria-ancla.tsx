@@ -6,13 +6,13 @@ export function CafeteriaAncla() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="text-center mb-16">
           <span className="inline-block rounded-full bg-[#62B5E5]/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-[#62B5E5] mb-4">
-            Cafeteria
+            Cafetería
           </span>
           <h2 className="text-3xl font-bold tracking-tight text-[#6B3D2E] sm:text-4xl md:text-5xl text-balance">
-            {"Cafeteria \"El Ancla\""}
+            {"Cafetería \"El Ancla\""}
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-[#6B3D2E]/70 font-serif">
-            El lugar perfecto para comenzar tu dia con un delicioso desayuno o disfrutar de un snack.
+            El lugar perfecto para comenzar tu día con un delicioso desayuno o disfrutar de un snack.
           </p>
         </div>
 
@@ -26,7 +26,7 @@ export function CafeteriaAncla() {
 
               {/* Titulo */}
               <h3 className="text-2xl font-bold text-[#6B3D2E] mb-2">El Ancla</h3>
-              <p className="text-[#6B3D2E]/70 font-serif mb-8">Tu parada favorita en el balneario</p>
+              <p className="text-[#6B3D2E]/70 font-serif mb-8">Tu parada favorita en el parque mas padre</p>
 
               {/* Que ofrecen */}
               <div className="flex flex-wrap justify-center gap-4 mb-8">
@@ -44,14 +44,14 @@ export function CafeteriaAncla() {
               <div className="w-full rounded-xl bg-[#62B5E5]/10 p-6">
                 <div className="flex items-center justify-center gap-2 mb-4 text-[#62B5E5]">
                   <Clock className="h-5 w-5" />
-                  <span className="font-bold">Horario de Servicio</span>
+                  <span className="font-bold">Horario de servicio</span>
                 </div>
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                   <div className="rounded-lg bg-[#ffffff] px-6 py-3 border border-[#62B5E5]/30">
-                    <p className="text-sm font-semibold text-[#6B3D2E]">Viernes, Sabado y Domingo</p>
+                    <p className="text-sm font-semibold text-[#6B3D2E]">Viernes, Sábado y Domingo</p>
                   </div>
                   <div className="rounded-lg bg-[#62B5E5] px-6 py-3">
-                    <p className="text-lg font-bold text-[#ffffff]">09:00 am - 5:00 pm</p>
+                    <p className="text-lg font-bold text-[#ffffff]">9:00 am - 5:00 pm</p>
                   </div>
                 </div>
               </div>

@@ -13,7 +13,7 @@ const barServices = [
     icon: Music,
     name: "Karaoke",
     price: "$300.00",
-    duration: "consumo minimo",
+    duration: "Consumo mínimo",
   },
   {
     icon: Wifi,
@@ -32,10 +32,10 @@ export function AbismoBar() {
             Bar & Entretenimiento
           </span>
           <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl md:text-5xl text-balance">
-            ABISMO BAR
+            Bar "Abismo"
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-[#a0a0a0] font-serif text-lg">
-            Cocteleria nacional e internacional
+            Coctelería nacional e internacional.
           </p>
         </div>
 
@@ -59,7 +59,7 @@ export function AbismoBar() {
           <div className="inline-flex items-center gap-3 rounded-full border border-[#333333] bg-[#252525] px-6 py-3">
             <Clock className="h-5 w-5 text-[#62B5E5]" />
             <span className="text-white font-medium">Horario de servicio:</span>
-            <span className="text-[#FFD100] font-bold">09:00 am a 6:00 pm</span>
+            <span className="text-[#FFD100] font-bold">9:00 am a 6:00 pm</span>
           </div>
         </div>
       </div>
