@@ -9,12 +9,12 @@ import { ScrollAnimation, StaggerContainer } from "@/components/scroll-animation
 const services = [
   { icon: Flame, label: "Asadores" },
   { icon: Lock, label: "Lockers" },
-  { icon: Armchair, label: "Renta Mobiliario" },
+  { icon: Armchair, label: "Renta de equipo" },
   { icon: Hotel, label: "Hotel" },
   { icon: UtensilsCrossed, label: "Restaurante" },
   { icon: Drumstick, label: "Rosticeria" },
-  { icon: Tent, label: "Zona Camping" },
-  { icon: Coffee, label: "Cafeterias" },
+  { icon: Tent, label: "Zona de acampar" },
+  { icon: Coffee, label: "Cafetería" },
   { icon: ShowerHead, label: "Regaderas y Vestidores" },
   { icon: GlassWater, label: "Barra de Bebidas" },
 ]
@@ -28,10 +28,10 @@ export function Services() {
             Servicios
           </span>
           <h2 className="text-3xl font-bold tracking-tight text-[#6B3D2E] sm:text-4xl md:text-5xl text-balance">
-            Todo Lo Que Necesitas
+            Todo lo que necesitas
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-[#6B3D2E]/70 font-serif">
-            Contamos con todos los servicios para que tu visita sea comoda, segura y sin preocupaciones.
+            Contamos con todos los servicios para que tu visita sea cómoda, segura y sin preocupaciones.
           </p>
         </ScrollAnimation>
 
@@ -61,8 +61,8 @@ export function Services() {
                 <Cross className="h-7 w-7 text-[#ffffff]" />
               </div>
               <div>
-                <p className="font-bold text-[#6B3D2E] text-lg">Servicio de Enfermeria</p>
-                <p className="text-sm text-[#6B3D2E]/70 font-serif">MOD 1 Alberca Olimpica - MOD 2 Playa Sirena</p>
+                <p className="font-bold text-[#6B3D2E] text-lg">Servicio de enfermería</p>
+                <p className="text-sm text-[#6B3D2E]/70 font-serif">MOD 1 Alberca olímpica - MOD 2 Playa sirena</p>
               </div>
             </div>
           </div>

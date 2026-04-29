@@ -22,7 +22,7 @@ export function CampingHero() {
         <p className="mx-auto mt-6 max-w-2xl text-lg text-[#ffffff]/80 font-serif leading-relaxed">
           Vive la experiencia completa en Dios Padre. Acampa bajo las estrellas
           con todas las comodidades: vigilancia, alumbrado, sanitarios y
-          regaderas las 24 horas del dia.
+          regaderas las 24 horas del día.
         </p>
       </div>
     </section>

@@ -3,12 +3,12 @@ import {
 } from "lucide-react"
 
 const amenities = [
-  { icon: Ruler, title: "Lotes de 25m² y 15m²", description: "Espacios amplios para tu comodidad, con o sin auto." },
-  { icon: ShieldCheck, title: "Vigilancia 24 hrs", description: "Personal de seguridad las 24 horas del dia." },
-  { icon: Toilet, title: "Sanitarios", description: "Instalaciones limpias disponibles en todo momento." },
-  { icon: ShowerHead, title: "Regaderas", description: "Regaderas con agua caliente para tu comodidad." },
-  { icon: Clock, title: "Servicio 24 horas", description: "Acceso al area de campamento las 24 horas." },
-  { icon: CalendarClock, title: "Check-out a las 12:00 hrs", description: "El lote y casa de campana vencen al dia siguiente al mediodia." },
+  { icon: Ruler, title: "Lote", description: "Espacios amplios para tu comodidad con o sin auto" },
+  { icon: ShieldCheck, title: "Vigilancia 24 hrs", description: "Personal de seguridad las 24 horas del dia" },
+  { icon: Toilet, title: "Sanitarios", description: "Instalaciones limpias disponibles en todo momento" },
+  { icon: ShowerHead, title: "Regaderas", description: "Regaderas con agua caliente para tu comodidad" },
+  { icon: Clock, title: "Servicio 24 hrs", description: "Acceso al área de campamento las 24 horas" },
+  { icon: CalendarClock, title: "Check-out a las 12:00 hrs", description: "El lote y casa de campana vencen al día siguiente al mediodía" },
 ]
 
 export function CampingInfo() {
@@ -23,7 +23,7 @@ export function CampingInfo() {
             Tu espacio incluye
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-[#6B3D2E]/70 font-serif">
-            Todo lo que necesitas para una estancia comoda y segura en nuestro parque.
+            Todo lo que necesitas para una estancia cómoda y segura en nuestro parque.
           </p>
         </div>
 

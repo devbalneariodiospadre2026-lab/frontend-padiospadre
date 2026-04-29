@@ -6,11 +6,11 @@ import { Menu, X, Info, DollarSign, ScrollText, Waves, Phone, Hotel } from "luci
 import Image from "next/image"
 
 const navLinks = [
-  { label: "Balneario", href: "/", icon: Waves },
+  { label: "Parque Acuatico", href: "/", icon: Waves },
   { label: "Informacion", href: "#informacion", icon: Info },
   { label: "Precios", href: "#precios", icon: DollarSign },
   { label: "Reglamento", href: "#reglamento", icon: ScrollText },
-    { label: "Hotel", href: "https://www.hoteldiospadre.com", icon: Hotel },
+  { label: "Hotel", href: "https://www.hoteldiospadre.com", icon: Hotel },
 ]
 
 export function CampingNavbar() {
@@ -60,7 +60,7 @@ export function CampingNavbar() {
                   scrolled ? "text-[#6B3D2E]" : "text-[#ffffff]"
                 }`}
               >
-                Dios Padre
+                Parque Acuatico
               </span>
               <span
                 className={`text-[10px] font-semibold uppercase tracking-widest transition-colors duration-300 ${

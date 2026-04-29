@@ -70,11 +70,11 @@ export function Reglamento() {
               <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#ED8B00]/10">
                 <ShieldAlert className="h-6 w-6 text-[#ED8B00]" />
               </div>
-              <h3 className="text-xl font-bold text-[#6B3D2E]">Medidas de Seguridad</h3>
+              <h3 className="text-xl font-bold text-[#6B3D2E]">Medidas de seguridad</h3>
             </div>
             <div className="space-y-4">
               <p className="text-sm text-[#6B3D2E]/80 font-serif leading-relaxed">
-                Estimado visitante, se les hace las siguientes recomendaciones como medida de prevencion:
+                Estimado visitante, se les hace las siguientes recomendaciones como medida de prevención:
               </p>
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
@@ -92,13 +92,13 @@ export function Reglamento() {
                 <li className="flex items-start gap-3">
                   <Eye className="h-4 w-4 shrink-0 text-[#ED8B00] mt-1" />
                   <span className="text-sm text-[#6B3D2E]/80 font-serif">
-                    Mantenga vigilada su casa de campana y sus pertenencias en todo momento
+                    Mantenga vigilada su casa de campaña y sus pertenencias en todo momento
                   </span>
                 </li>
               </ul>
               <div className="mt-4 rounded-lg bg-[#ED8B00]/10 p-4 border border-[#ED8B00]/30">
                 <p className="text-xs text-[#6B3D2E]/70 font-serif">
-                  <span className="font-semibold text-[#ED8B00]">Aviso:</span> La empresa no se hace responsable en caso de perdida, sustraccion, robo o extravio, siendo su guarda y custodia exclusiva responsabilidad de los titulares.
+                  <span className="font-semibold text-[#ED8B00]">Aviso:</span> La empresa no se hace responsable en caso de perdida, sustracción, robo o extravio, siendo su guarda y custodia exclusiva responsabilidad de los titulares.
                 </p>
               </div>
             </div>
@@ -115,10 +115,10 @@ export function Reglamento() {
             <div className="space-y-4">
               <div className="rounded-lg bg-[#62B5E5]/10 p-4 border border-[#62B5E5]/30">
                 <p className="text-sm font-semibold text-[#6B3D2E] mb-2">
-                  Area de Toboganes
+                  Área de toboganes
                 </p>
                 <p className="text-sm text-[#6B3D2E]/80 font-serif leading-relaxed">
-                  Queda estrictamente prohibido ingresar al area de toboganes con:
+                  Queda estrictamente prohibido ingresar al área de toboganes con:
                 </p>
               </div>
               <ul className="space-y-3">
@@ -149,7 +149,7 @@ export function Reglamento() {
               </ul>
               <div className="mt-4 rounded-lg bg-[#ef4444]/10 p-4 border border-[#ef4444]/30">
                 <p className="text-xs text-[#6B3D2E]/70 font-serif">
-                  <span className="font-semibold text-[#ef4444]">Importante:</span> No se permitira el acceso a los toboganes si no cumple con estas indicaciones.
+                  <span className="font-semibold text-[#ef4444]">Importante:</span> No se permitirá el acceso a los toboganes si no cumple con estas indicaciones.
                 </p>
               </div>
             </div>
