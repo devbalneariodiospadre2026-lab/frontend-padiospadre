@@ -51,7 +51,7 @@ const attractions = [
             "/attractions/infantil-2/infantil-3.jpg"
         ],
         icon: Zap,
-        badge: "Familiar",
+        badge: "Infantil",
         badgeColor: "bg-[#ED8B00] text-[#ffffff]",
         temperatura: "26°C",
         profundidad: ".30 m",
@@ -60,14 +60,14 @@ const attractions = [
     },
 
     {
-        title: "Isla Aventura",
+        title: "Isla aventura",
         description: " Si visitas con los más pequeños, esta será sin duda su lugar favorito. Un espacio diseñado especialmente para que los niños se diviertan de forma segura y sin parar. ",
         images: [
             "/attractions/infantil-1/INFANTIL-1.png",
             "/attractions/infantil-1/infantil-2.jpg"
         ],
         icon: Droplet,
-        badge: "Familiar",
+        badge: "Infantil",
         badgeColor: "bg-[#00843D] text-[#ffffff]",
         temperatura: "26°C",
         profundidad: ".35 m",
@@ -145,7 +145,7 @@ const attractions = [
     },
 
     {
-        title: "Olímpica",
+        title: "Familiar",
         description: "Compite con tus amigos y familia en nuestras pistas paralelas. Quien llega primero al agua? Una experiencia llena de emocion y competencia sana para todas las edades.",
         images: [
             "/attractions/olimpica/OLIMPICA.png",

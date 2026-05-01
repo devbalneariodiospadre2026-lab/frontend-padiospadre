@@ -1,4 +1,5 @@
 import { Navbar } from "@/components/navbar"
+import { NavbarMenu } from "@/components/navbar-menu";
 import { Hero } from "@/components/hero"
 import { Attractions } from "@/components/attractions"
 import { Attractions as AtracctionsCarrucel } from "@/components/attractions-carrucel";
@@ -17,7 +18,7 @@ import { Footer } from "@/components/footer"
 export default function Page() {
   return (
     <main>
-      <Navbar />
+      <NavbarMenu />
       <Hero />
       <AtracctionsCarrucel/>
       <Services />
