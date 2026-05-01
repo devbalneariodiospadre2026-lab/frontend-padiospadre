@@ -59,16 +59,19 @@ export function Pricing() {
             {/* Entrada General */}
             <div className="relative flex flex-col items-center rounded-xl border border-[#62B5E5] bg-[#ffffff] p-8 shadow-md">
               <span className="absolute -top-3 rounded-full bg-[#FFD100] px-4 py-1 text-xs font-semibold text-[#6B3D2E]">
-                Acceso Total
+                Acceso publico
               </span>
               <h3 className="text-lg font-bold text-[#6B3D2E] mb-1">Entrada General</h3>
               <p className="text-sm text-[#6B3D2E]/70 font-serif mb-5 text-center">
-                Disfruta de todo el parque sin limites
+                Disfruta todas las atracciones del Parque
               </p>
               <div className="mb-6 flex-1 flex items-center">
                 <span className="text-5xl font-extrabold text-[#6B3D2E]">$220</span>
                 <span className="ml-2 text-sm text-[#6B3D2E]/70 font-serif">por persona</span>
               </div>
+              <p className="text-ms font-bold text-[#6B3D2E]/70 font-serif mb-5 text-center">
+                La operación de algunas atracciones puede variar entre semana.
+              </p>
               <div className="w-full flex items-center justify-center gap-2 rounded-lg bg-[#6B3D2E]/10 py-3 px-4 mt-auto">
                 <Ticket className="h-4 w-4 text-[#6B3D2E]" />
                 <span className="text-sm font-medium text-[#6B3D2E]">Boletos solo en taquilla</span>
@@ -85,7 +88,7 @@ export function Pricing() {
                 Con credencial vigente del INAPAM
               </p>
               <div className="mb-6 flex-1 flex items-center">
-                <span className="text-5xl font-extrabold text-[#6B3D2E]">$150</span>
+                <span className="text-5xl font-extrabold text-[#6B3D2E]">$110</span>
                 <span className="ml-2 text-sm text-[#6B3D2E]/70 font-serif">por persona</span>
               </div>
               <div className="w-full flex items-center justify-center gap-2 rounded-lg bg-[#6B3D2E]/10 py-3 px-4 mt-auto">
@@ -141,7 +144,10 @@ export function Pricing() {
                 <p className="font-semibold text-[#6B3D2E]">Acceso de alimentos</p>
               </div>
               <p className="text-sm text-[#6B3D2E]/70 font-serif">
-                El ingreso de alimentos, bebidas y abarrotes se permite únicamente en su primer acceso al parque.
+                Se permite el ingreso de alimentos, bebidas y abarrotes únicamente en el primer acceso al Parque
+              </p>
+              <p className="text-sm text-[#6B3D2E]/70 font-serif mt-1">
+                No se permite el ingreso de envases de cristal.
               </p>
             </div>
             <div className="rounded-xl border border-[#FFD100] bg-[#FFD100]/20 p-6">
@@ -150,7 +156,10 @@ export function Pricing() {
                 <p className="font-semibold text-[#6B3D2E]">Salida y reingreso</p>
               </div>
               <p className="text-sm text-[#6B3D2E]/70 font-serif">
-                Pueden salir de las instalaciones portando su brazalete, únicamente por cosas de uso personal.
+                Se permite la salida de las instalaciones portando el brazalete, únicamente por motivos de uso personal
+              </p>
+              <p className="text-sm text-[#6B3D2E]/70 font-serif mt-1">
+                No se permite el reingreso con artículos adquiridos fuera del Parque.
               </p>
             </div>
           </div>
@@ -160,13 +169,13 @@ export function Pricing() {
             <div className="rounded-xl border border-[#00843D] bg-[#00843D]/10 p-6">
               <div className="flex items-center gap-3 mb-4">
                 <CreditCard className="h-6 w-6 text-[#00843D]" />
-                <h3 className="font-bold text-[#6B3D2E] text-lg">Metodos de pago</h3>
+                <h3 className="font-bold text-[#6B3D2E] text-lg">Métodos de pago</h3>
               </div>
               <p className="text-sm text-[#6B3D2E]/80 font-serif mb-4">
                 Aceptamos pagos con tarjeta en taquilla y establecimientos dentro del parque.
               </p>
               <p className="text-sm text-[#6B3D2E]/80 font-serif">
-                Para realizar reservaciones de su grupo o excursion, los organizadores podran realizar deposito o transferencia.
+                Para realizar reservaciones de su grupo o excursión, los organizadores podrán realizar depósito o transferencia.
               </p>
             </div>
           </div>

@@ -52,25 +52,9 @@ export function CampingPricing() {
               </div>
               <p className="text-sm text-[#6B3D2E]/70 font-serif mb-4">por noche</p>
               <div className="w-full rounded-lg bg-[#00843D]/5 p-4 text-sm text-[#6B3D2E]/70 font-serif leading-relaxed text-center">
-                <p>Espacio de 15m² ideal para tienda de campana.</p>
+                <p>Espacio de 15m² ideal para tienda de campaña.</p>
               </div>
             </div>
-          </div>
-
-          {/* Servicios incluidos en lotes */}
-          <div className="mx-auto max-w-3xl mt-6 flex flex-wrap justify-center gap-4 text-sm text-[#6B3D2E]/70 font-serif">
-            <span className="flex items-center gap-2 bg-[#ffffff] px-4 py-2 rounded-full border border-[#d1d7dc]">
-              <span className="h-2 w-2 rounded-full bg-[#00843D]"></span>
-              Vigilancia 24 hrs
-            </span>
-            <span className="flex items-center gap-2 bg-[#ffffff] px-4 py-2 rounded-full border border-[#d1d7dc]">
-              <span className="h-2 w-2 rounded-full bg-[#00843D]"></span>
-              Sanitarios
-            </span>
-            <span className="flex items-center gap-2 bg-[#ffffff] px-4 py-2 rounded-full border border-[#d1d7dc]">
-              <span className="h-2 w-2 rounded-full bg-[#00843D]"></span>
-              Regaderas
-            </span>
           </div>
         </div>
 

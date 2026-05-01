@@ -67,10 +67,10 @@ export function Hero() {
 
 
         <p className="mx-auto mt-6 max-w-2xl text-lg text-[#ffffff]/80 font-serif font-black">
-          Somos el #ParqueMásPadre de Ixmiquilpan Hidalgo
+          Somos el #ParqueMásPadre de Ixmiquilpan, Hidalgo
         </p>
         <p className="mx-auto mt-6 max-w-2xl text-lg text-[#ffffff]/80 font-serif font-black">
-          Vive un día lleno de diversión con aguas termales, toboganes, alberca de olas, restaurante, hotel, masajes, bar karaoke y muchas cosas más.
+          Vive un día inolvidable entre aguas termales, toboganes y alberca de olas, con restaurante, hotel, masajes y bar con karaoke… todo en un mismo lugar
         </p>
 
 

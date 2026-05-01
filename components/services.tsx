@@ -12,7 +12,7 @@ const services = [
   { icon: Armchair, label: "Renta de equipo" },
   { icon: Hotel, label: "Hotel" },
   { icon: UtensilsCrossed, label: "Restaurante" },
-  { icon: Drumstick, label: "Rosticeria" },
+  { icon: Drumstick, label: "Rosticería" },
   { icon: Tent, label: "Zona de acampar" },
   { icon: Coffee, label: "Cafetería" },
   { icon: ShowerHead, label: "Regaderas y Vestidores" },
