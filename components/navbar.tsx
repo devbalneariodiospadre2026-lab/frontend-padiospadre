@@ -10,7 +10,6 @@ const navLinks = [
   { label: "Atracciones", href: "#atracciones", icon: Waves },
   { label: "Servicios", href: "#servicios", icon: Sparkles },
   { label: "Precios", href: "#precios", icon: DollarSign },
-  { label: "Renta de equipo", href: "#renta", icon: Package },
   { label: "Restaurante", href: "#restaurante", icon: Utensils },
   { label: "Bar", href: "#bar", icon: Wine },
   { label: "Acampar", href: "/acampar", icon: Tent },

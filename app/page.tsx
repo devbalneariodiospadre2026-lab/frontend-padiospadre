@@ -23,7 +23,6 @@ export default function Page() {
       <Services />
       <Stats />
       <Pricing />
-      <RentalEquipment />
       <Restaurante />
       <CafeteriaAncla />
       <AbismoBar />

@@ -35,7 +35,7 @@ export function AbismoBar() {
             Bar "Abismo"
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-[#a0a0a0] font-serif text-lg">
-            Coctelería nacional e internacional.
+            Cocteles nacionales e internacionales, preparados al momento para refrescarte y disfrutar.
           </p>
         </div>
 

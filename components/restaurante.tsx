@@ -51,7 +51,7 @@ export function Restaurante() {
               <div className="lg:w-64 rounded-xl bg-[#ED8B00]/10 p-6">
                 <div className="flex items-center gap-2 mb-4 text-[#ED8B00]">
                   <Clock className="h-5 w-5" />
-                  <span className="font-bold">Horarios de Servicio</span>
+                  <span className="font-bold">Horarios de servicio</span>
                 </div>
                 <div className="space-y-3">
                   <div className="rounded-lg bg-[#ffffff] p-3 border border-[#ED8B00]/30">

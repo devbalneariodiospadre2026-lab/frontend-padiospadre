@@ -5,10 +5,10 @@ import {
 const amenities = [
   { icon: Ruler, title: "Lote", description: "Espacios amplios para tu comodidad con o sin auto" },
   { icon: ShieldCheck, title: "Vigilancia 24 hrs", description: "Personal de seguridad las 24 horas del dia" },
-  { icon: Toilet, title: "Sanitarios", description: "Instalaciones limpias disponibles en todo momento" },
+  { icon: Toilet, title: "Sanitarios", description: "Instalaciones limpias y disponibles en todo momento" },
   { icon: ShowerHead, title: "Regaderas", description: "Regaderas con agua caliente para tu comodidad" },
-  { icon: Clock, title: "Servicio 24 hrs", description: "Acceso al área de campamento las 24 horas" },
-  { icon: CalendarClock, title: "Check-out a las 12:00 hrs", description: "El lote y casa de campana vencen al día siguiente al mediodía" },
+  { icon: Clock, title: "Servicio 24 hrs", description: "Acceso al área de campamento las 24 hrs" },
+  { icon: CalendarClock, title: "", description: "El lote y la casa de campaña se liberan al día siguiente a las 12:00 hrs." },
 ]
 
 export function CampingInfo() {

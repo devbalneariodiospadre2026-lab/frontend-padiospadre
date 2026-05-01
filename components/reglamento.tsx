@@ -17,7 +17,7 @@ import { ScrollAnimation, StaggerContainer } from "@/components/scroll-animation
 
 const restricciones = [
   { icon: Dog, text: "No ingresar con mascotas" },
-  { icon: Flame, text: "No tanques de gas" },
+  { icon: Flame, text: "No ingresar tanques de gas" },
   { icon: Scissors, text: "No objetos punzocortantes" },
   { icon: Wine, text: "No envases de vidrio" },
   { icon: Pill, text: "No sustancias prohibidas (drogas)" },
@@ -74,7 +74,7 @@ export function Reglamento() {
             </div>
             <div className="space-y-4">
               <p className="text-sm text-[#6B3D2E]/80 font-serif leading-relaxed">
-                Estimado visitante, se les hace las siguientes recomendaciones como medida de prevención:
+                Estimado visitante, se le hacen las siguientes recomendaciones como medida de prevención:
               </p>
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
@@ -98,7 +98,7 @@ export function Reglamento() {
               </ul>
               <div className="mt-4 rounded-lg bg-[#ED8B00]/10 p-4 border border-[#ED8B00]/30">
                 <p className="text-xs text-[#6B3D2E]/70 font-serif">
-                  <span className="font-semibold text-[#ED8B00]">Aviso:</span> La empresa no se hace responsable en caso de perdida, sustracción, robo o extravio, siendo su guarda y custodia exclusiva responsabilidad de los titulares.
+                  <span className="font-semibold text-[#ED8B00]">Aviso:</span> Aviso: La empresa no se hace responsable en caso de pérdida, sustracción, robo o extravío, siendo su guarda y custodia exclusiva responsabilidad de los titulares. ingresar
                 </p>
               </div>
             </div>
@@ -149,7 +149,7 @@ export function Reglamento() {
               </ul>
               <div className="mt-4 rounded-lg bg-[#ef4444]/10 p-4 border border-[#ef4444]/30">
                 <p className="text-xs text-[#6B3D2E]/70 font-serif">
-                  <span className="font-semibold text-[#ef4444]">Importante:</span> No se permitirá el acceso a los toboganes si no cumple con estas indicaciones.
+                  <span className="font-semibold text-[#ef4444]">Importante:</span> Importante: No se permitirá el acceso a los toboganes si no se cumplen estas indicaciones.
                 </p>
               </div>
             </div>

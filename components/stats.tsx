@@ -4,10 +4,10 @@ import { Waves, Sun, Star, Tent } from "lucide-react"
 import { StaggerContainer } from "@/components/scroll-animation"
 
 const stats = [
-  { icon: Waves, value: "8", label: "Atracciones acuaticas" },
+  { icon: Waves, value: "8", label: "Atracciones acuáticas" },
   { icon: Tent, value: "11", label: "Servicios disponibles" },
-  { icon: Sun, value: "365", label: "Dias abiertos al año" },
-  { icon: Star, value: "4.4", label: "Calificacion promedio" },
+  { icon: Sun, value: "365", label: "Días abiertos al año" },
+  { icon: Star, value: "4.4", label: "Calificación promedio" },
 ]
 
 export function Stats() {
