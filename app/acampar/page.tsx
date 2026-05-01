@@ -1,5 +1,6 @@
 import { Metadata } from "next"
 import { CampingNavbar } from "@/components/camping-navbar"
+import { NavbarMenu } from "@/components/navbar-menu";
 import { CampingHero } from "@/components/camping-hero"
 import { CampingInfo } from "@/components/camping-info"
 import { CampingPricing } from "@/components/camping-pricing"
@@ -15,7 +16,7 @@ export const metadata: Metadata = {
 export default function AcamparPage() {
   return (
     <main>
-      <CampingNavbar />
+      <NavbarMenu />
       <CampingHero />
       <CampingInfo />
       <CampingPricing />
