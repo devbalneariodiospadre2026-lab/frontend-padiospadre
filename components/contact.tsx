@@ -78,7 +78,7 @@ export function Contact() {
             Estamos para servirte
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-[#6B3D2E]/70 font-serif">
-            Tienes preguntas, sugerencias o quieres reservar para grupos grandes, contactanos y te responderemos lo antes posible.
+            ¿Tienes preguntas, sugerencias o deseas reservar para grupos grandes? Contáctanos y te responderemos lo antes posible
           </p>
         </ScrollAnimation>
 
@@ -93,7 +93,7 @@ export function Contact() {
                 <p className="font-bold text-[#6B3D2E]">Ubicación</p>
                 <p className="text-[#6B3D2E]/70 font-serif">
                   Km 156 Carretera México-Laredo<br />
-                  Ixmiquilpan, Hidalgo
+                  Ixmiquilpan, Hidalgo, Dios Padre
                 </p>
               </div>
             </div>

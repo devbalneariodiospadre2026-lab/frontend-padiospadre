@@ -24,26 +24,27 @@ import { ScrollAnimation, StaggerContainer } from "@/components/scroll-animation
 
 const attractions = [
 
-    //===============================================================
-
     {
-        title: "Infantil",
-        description: " Si visitas con los más pequeños, esta será sin duda su lugar favorito. Un espacio diseñado especialmente para que los niños se diviertan de forma segura y sin parar. ",
+        title: "Playa sirena",
+        description: "Una de las atracciones más divertidas de Hidalgo, ideal para disfrutar en familia y crear momentos inolvidables. Esta impresionante alberca de olas tiene capacidad para 1,200 personas y además cuenta con un área infantil, perfecta para los más pequeños.",
         images: [
-            "/attractions/infantil-1/INFANTIL-1.png",
-            "/attractions/infantil-1/infantil-2.jpg"
+            "/attractions/playa-sirena/PLAYA-SIRENA.png",
+            "/attractions/playa-sirena/playa-sirena-2.jpg",
+            "/attractions/playa-sirena/playa-sirena-3.jpg",
         ],
-        icon: Droplet,
-        badge: "Familiar",
-        badgeColor: "bg-[#00843D] text-[#ffffff]",
-        temperatura: "26°C",
-        profundidad: ".35 m",
-        horario: "9:30 am a 5:00 pm",
-        capacidad: "400 niños",
+        icon: Waves,
+        badge: "Popular",
+        badgeColor: "bg-[#ED8B00] text-[#ffffff]",
+        temperatura: "27°C",
+        profundidad: ".30 m - 1.70 m de profundidad",
+        horario: "12:00 pm a 4:00 pm",
+        capacidad: "500 personas",
     },
 
-    {
-        title: "Isla pirata",
+
+
+	    {
+        title: "Bahía pirata",
         description: "Embárcate en una emocionante aventura en la Isla Pirata, un espacio lleno de fantasía donde la diversión no tiene límites. Rodeada de un impresionante barco naufragado y un gigantesco pulpo que parece cobrar vida, esta área te invita a explorar, jugar y dejar volar tu imaginación.",
         images: [
             "/attractions/infantil-2/INFANTIL-2.png",
@@ -56,6 +57,22 @@ const attractions = [
         profundidad: ".30 m",
         horario: "9:30 am a 5:00 pm",
         capacidad: "120 niños",
+    },
+
+    {
+        title: "Isla Aventura",
+        description: " Si visitas con los más pequeños, esta será sin duda su lugar favorito. Un espacio diseñado especialmente para que los niños se diviertan de forma segura y sin parar. ",
+        images: [
+            "/attractions/infantil-1/INFANTIL-1.png",
+            "/attractions/infantil-1/infantil-2.jpg"
+        ],
+        icon: Droplet,
+        badge: "Familiar",
+        badgeColor: "bg-[#00843D] text-[#ffffff]",
+        temperatura: "26°C",
+        profundidad: ".35 m",
+        horario: "9:30 am a 5:00 pm",
+        capacidad: "400 niños",
     },
 
     {
@@ -74,6 +91,25 @@ const attractions = [
         capacidad: "4 personas por lanzamiento",
     },
 
+
+    {
+        title: "Toboganes",
+        description: "Con una imponente torre de 18 metros de altura, nuestros toboganes están listos para llenarte de emoción desde el primer momento. Disfruta de un tobogán abierto de 50 metros, otro de 70 metros, y un increíble multicanal de 4 carriles con 90 metros de pura diversión.",
+        images: [
+            "/attractions/toboganes/toboganes-1.jpg",
+            "/attractions/toboganes/toboganes-2.jpg",
+        ],
+        icon: Eye,
+        badge: "Popular",
+        badgeColor: "bg-[#00843D] text-[#ffffff]",
+        temperatura: "28°C",
+        profundidad: "18 m",
+        horario: "10:30 am a 4:30 am",
+        capacidad: "300 personas",
+    },
+
+
+
     {
         title: "Ojo de agua",
         description: "Sin duda, uno de los principales atractivos del parqu es su emblemático “Ojo de Agua”, del cual brota un impresionante caudal de 100 litros por segundo. En esta zona podrás encontrar tres pozas, ideales para disfrutar y relajarte en sus cálidas y reconfortantes aguas termales.",
@@ -87,6 +123,23 @@ const attractions = [
         badgeColor: "bg-[#FFD100] text-[#6B3D2E]",
         temperatura: "36°C",
         profundidad: ".30 m - .60 m de profundidad",
+        horario: "6:00 am a 4:30 pm",
+        capacidad: "300 personas",
+    },
+
+
+    {
+        title: "Trébol",
+        description: "Una alberca familiar ideal para disfrutar en compañía de chicos y grandes. Aquí podrás divertirte con su impresionante géiser artificial de 7 metros de altura, además de sus juegos acuáticos en forma de barco, mariposa y hongo, que hacen de este espacio una experiencia llena de alegría y entretenimiento.",
+        images: [
+            "/attractions/trebol/TREBOL.png",
+            "/attractions/trebol/trebol-2.jpg",
+        ],
+        icon: Eye,
+        badge: "Familiar",
+        badgeColor: "bg-[#00843D] text-[#ffffff]",
+        temperatura: "29°C",
+        profundidad: ".60 m - 1.50 m de profundiad",
         horario: "6:00 am a 4:30 pm",
         capacidad: "300 personas",
     },
@@ -106,56 +159,6 @@ const attractions = [
         horario: "6:00 am a 6:00 pm",
         capacidad: "600 personas",
     },
-
-    {
-        title: "Playa sirena",
-        description: "Una de las atracciones más divertidas de Hidalgo, ideal para disfrutar en familia y crear momentos inolvidables. Esta impresionante alberca de olas tiene capacidad para 1,200 personas y además cuenta con un área infantil, perfecta para los más pequeños.",
-        images: [
-            "/attractions/playa-sirena/PLAYA-SIRENA.png",
-            "/attractions/playa-sirena/playa-sirena-2.jpg",
-            "/attractions/playa-sirena/playa-sirena-3.jpg",
-        ],
-        icon: Waves,
-        badge: "Popular",
-        badgeColor: "bg-[#ED8B00] text-[#ffffff]",
-        temperatura: "27°C",
-        profundidad: ".30 m - 1.70 m de profundidad",
-        horario: "12:00 pm a 4:00 pm",
-        capacidad: "500 personas",
-    },
-
-    {
-        title: "Trébol",
-        description: "Una alberca familiar ideal para disfrutar en compañía de chicos y grandes. Aquí podrás divertirte con su impresionante géiser artificial de 7 metros de altura, además de sus juegos acuáticos en forma de barco, mariposa y hongo, que hacen de este espacio una experiencia llena de alegría y entretenimiento.",
-        images: [
-            "/attractions/trebol/TREBOL.png",
-            "/attractions/trebol/trebol-2.jpg",
-        ],
-        icon: Eye,
-        badge: "Familiar",
-        badgeColor: "bg-[#00843D] text-[#ffffff]",
-        temperatura: "29°C",
-        profundidad: ".60 m - 1.50 m de profundiad",
-        horario: "6:00 am a 4:30 pm",
-        capacidad: "300 personas",
-    },
-
-    {
-        title: "Toboganes",
-        description: "Con una imponente torre de 18 metros de altura, nuestros toboganes están listos para llenarte de emoción desde el primer momento. Disfruta de un tobogán abierto de 50 metros, otro de 70 metros, y un increíble multicanal de 4 carriles con 90 metros de pura diversión.",
-        images: [
-            "/attractions/toboganes/toboganes-1.jpg",
-            "/attractions/toboganes/toboganes-2.jpg",
-        ],
-        icon: Eye,
-        badge: "Popular",
-        badgeColor: "bg-[#00843D] text-[#ffffff]",
-        temperatura: "28°C",
-        profundidad: "18 m",
-        horario: "10:30 am a 4:30 am",
-        capacidad: "300 personas",
-    },
-
 ]
 
 type Attraction = typeof attractions[number]
@@ -231,7 +234,7 @@ export function Attractions() {
                         Diversiones para toda la familia
                     </h2>
                     <p className="mx-auto mt-3 sm:mt-4 max-w-2xl text-sm sm:text-base text-[#6B3D2E]/70 font-serif">
-                        Desde adrenalina extrema hasta relajacion total, tenemos la atracciones perfecta para cada miembro de tu familia.
+                        Desde adrenalina extrema hasta relajación total, aquí cada miembro de la familia encuentra su forma perfecta de disfrutar.
                     </p>
                 </ScrollAnimation>
 

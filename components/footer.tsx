@@ -19,7 +19,7 @@ export function Footer() {
               <span className="text-lg font-bold text-[#6B3D2E]">Parque Acuático Dios Padre</span>
             </Link>
             <p className="text-sm text-[#6B3D2E]/70 font-serif leading-relaxed">
-              El Parque Acuático más completo de la región. Atracciones acuaticas, restaurante, hotel, zona de acampar y muchas atracciones para toda la familia
+              El Parque Acuático más completo de la región, con atracciones acuáticas, restaurante, hotel, zona de acampar y todo lo que necesitas para disfrutar en un solo lugar.
             </p>
           </div>
 
@@ -31,7 +31,6 @@ export function Footer() {
                 { label: "Atracciones", href: "/#atracciones" },
                 { label: "Servicios", href: "/#servicios" },
                 { label: "Precios", href: "/#precios" },
-                { label: "Renta de Equipo", href: "/#renta" },
                 { label: "Acampar", href: "/acampar" },
                 { label: "Contacto", href: "/#contacto" },
               ].map((item) => (
@@ -86,7 +85,7 @@ export function Footer() {
                 aria-label="Facebook"
               >
                 <Image
-                  src="/icons/facebook-icon.png" // o .svg
+                  src="/icons/facebook-icon-1.png" // o .svg
                   alt="Facebook"
                   width={40}
                   height={40}
@@ -99,7 +98,7 @@ export function Footer() {
                 aria-label="Instagram"
               >
                 <Image
-                  src="/icons/instagram-logo.png" // o .svg
+                  src="/icons/instagram-icon-1.png" // o .svg
                   alt="Instagram"
                   width={40}
                   height={40}
@@ -112,7 +111,7 @@ export function Footer() {
                 aria-label="TikTok"
               >
                 <Image
-                  src="/icons/youtube.png" // o .svg
+                  src="/icons/youtube-icon-1.png" // o .svg
                   alt="You Tube"
                   width={40}
                   height={40}
@@ -125,7 +124,7 @@ export function Footer() {
                 aria-label="TikTok"
               >
                 <Image
-                  src="/icons/tiktok.png" // o .svg
+                  src="/icons/tiktok-icon-1.png" // o .svg
                   alt="Facebook"
                   width={40}
                   height={40}
